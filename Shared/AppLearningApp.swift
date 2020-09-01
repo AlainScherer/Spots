@@ -11,7 +11,7 @@ import SwiftUI
 struct AppLearningApp: App {
     var body: some Scene {
         WindowGroup {
-            MapTest()
+            WeatherView()
         }
     }
 }

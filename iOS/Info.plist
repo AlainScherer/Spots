@@ -58,5 +58,7 @@
 	<string>Show user location on map
 Show user location on map.
 Show user location on map</string>
+	<key>User Interface Style</key>
+	<string>Dark</string>
 </dict>
 </plist>

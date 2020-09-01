@@ -12,8 +12,7 @@ struct FishList: View {
     @Namespace var namespace
     
     var body: some View {
-            ZStack {
-                ScrollView {
+                List  {
                     VStack(spacing: 0) {
                         ForEach(fishes) { item in
                             FishItem(fish: item)
@@ -25,14 +24,13 @@ struct FishList: View {
                     Divider()
                         .foregroundColor(.white)
                 }
-            }
-            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         }
     }
 
 struct FishList_Previews: PreviewProvider {
     static var previews: some View {
         FishList()
+            .preferredColorScheme(.dark)
             .previewDevice("iPhone 11 Pro Max")
     }
 }

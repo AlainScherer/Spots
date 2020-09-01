@@ -8,7 +8,21 @@
 import SwiftUI
 import Mapbox
 
+class WeatherState {
+    var place: WeatherPlace?
+    
+    var temperature: String {
+        if let temp = place?.main.temp {
+           return "\(temp)"
+        } else {
+            return "?"
+        }
+    }
+}
+
 struct WeatherView: View {
+    @State var weather = WeatherState()
+    
     var body: some View {
         VStack {
             ZStack {
@@ -24,7 +38,7 @@ struct WeatherView: View {
                 VStack {
                     HStack(alignment: .center) {
                         HStack(alignment: .lastTextBaseline) {
-                            Text("24")
+                            Text(weather.temperature)
                                 .font(.custom("SuisseBold", size: 105))
                                 .multilineTextAlignment(.leading)
                                 .foregroundColor(.white)
@@ -66,9 +80,6 @@ struct WeatherView: View {
                         .padding(.bottom, -40)
                         .padding(.leading, 17)
                         .padding(.trailing, 17)
-                    
-                    
-                    
                     
                     HStack {
                         HStack {
@@ -169,6 +180,11 @@ struct WeatherView: View {
         }
         .background(Color(.black))
         .ignoresSafeArea(.all)
+        .onAppear(perform: {
+            WeatherApi().getWeather { w in
+                self.weather.place = w
+            }
+        })
     }
     
 }

@@ -7,14 +7,23 @@
 
 import SwiftUI
 
-struct WaternameList: View {
-    @State var posts: [Post] = [ ]
 
-    
+struct WaternameList: View {
+    @State var posts: [Place] = [ ]    
         var body: some View {
-            Text("Aal")
-                .onAppear {
-//                    Api().getPosts()
+            List {
+                ForEach(posts, id: \.id) { post in
+                    Text(post.tags.name).foregroundColor(.white)
+                   }.listRowBackground(Color.black)
+               }
+            .background(Color.black)
+            .onAppear {
+                    Api().getPosts { posts in
+                        self.posts = posts
+                        print("\(posts)")
+                    }
+                
+      
             }
         }
     }
