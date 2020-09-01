@@ -25,10 +25,11 @@ struct WeatherView: View {
                     HStack(alignment: .center) {
                         HStack(alignment: .lastTextBaseline) {
                             Text("24")
-                                .font(.custom("SuisseBold", size: 105))                            .multilineTextAlignment(.leading)
-                                    .foregroundColor(.white)
-                                
-                                
+                                .font(.custom("SuisseBold", size: 105))
+                                .multilineTextAlignment(.leading)
+                                .foregroundColor(.white)
+                            
+                            
                             Text("°C")
                                 .font(.custom("SuisseBold", size: 40))
                                 .multilineTextAlignment(.leading)
@@ -44,7 +45,7 @@ struct WeatherView: View {
                                     .multilineTextAlignment(.trailing)
                                     .foregroundColor(.white)
                                     .frame(width: 52.0)
-
+                                
                             }
                             HStack {
                                 Image("Arrow-down")
@@ -65,9 +66,9 @@ struct WeatherView: View {
                         .padding(.bottom, -40)
                         .padding(.leading, 17)
                         .padding(.trailing, 17)
-
-
-
+                    
+                    
+                    
                     
                     HStack {
                         HStack {

@@ -11,14 +11,14 @@ extension MGLPointAnnotation {
 
 struct MapView: UIViewRepresentable {
     @Binding var annotations: [MGLPointAnnotation]
-
+    
     
     private let mapView: MGLMapView = MGLMapView(frame: .zero, styleURL: MGLStyle.darkStyleURL)
     
-        
+    
     //MAPBOX STYLE
     /*
-    private let mapView: MGLMapView = MGLMapView(frame: .zero, styleURL: MGLStyle(URL(string: "mapbox://styles/a207/ck0v02p430oy51co7h97q2qw7"))
+     private let mapView: MGLMapView = MGLMapView(frame: .zero, styleURL: MGLStyle(URL(string: "mapbox://styles/a207/ck0v02p430oy51co7h97q2qw7"))
      */
     
     // MARK: - Configuring UIViewRepresentable protocol
@@ -71,13 +71,13 @@ struct MapView: UIViewRepresentable {
         
         func mapView(_ mapView: MGLMapView, didFinishLoading style: MGLStyle) {
             
-
+            
         }
         
         func mapView(_ mapView: MGLMapView, viewFor annotation: MGLAnnotation) -> MGLAnnotationView? {
             return nil
         }
-         
+        
         func mapView(_ mapView: MGLMapView, annotationCanShowCallout annotation: MGLAnnotation) -> Bool {
             return true
         }

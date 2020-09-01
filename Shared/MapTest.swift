@@ -15,7 +15,10 @@ struct MapTest: View {
     ]
     
     var body: some View {
-        MapView(annotations: $annotations).centerCoordinate(.init(latitude: 47.360035, longitude: 8.538363)).zoomLevel(13)
+        MapView(annotations: $annotations)
+            .centerCoordinate(.init(latitude: 47.360035, longitude: 8.538363))
+            .zoomLevel(13)
+            .styleURL(URL(string: "mapbox://styles/a207/ck0v02p430oy51co7h97q2qw7")!)
     }
 }
 
