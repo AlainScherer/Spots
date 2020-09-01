@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SuisseLight.otf</string>
+		<string>SuisseBold.otf</string>
+		<string>SuisseMedium.otf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -46,5 +52,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1IjoiYTIwNyIsImEiOiJjaWV5Zmthb3QwMGE2c2ptMTM2anhzeGJuIn0.M-JyvxVBk4tqW4HZTBGznw</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Show user location on map
+Show user location on map.
+Show user location on map</string>
 </dict>
 </plist>

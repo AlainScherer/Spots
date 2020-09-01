@@ -7,14 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		971FAC4C24F0FB3F00E2D9A1 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971FAC4624F0FB0C00E2D9A1 /* Mapbox.framework */; };
+		971FAC4D24F0FB3F00E2D9A1 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 971FAC4624F0FB0C00E2D9A1 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		971FAC4F24F0FB4100E2D9A1 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971FAC4724F0FB0D00E2D9A1 /* MapboxMobileEvents.framework */; };
+		971FAC5024F0FB4100E2D9A1 /* MapboxMobileEvents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 971FAC4724F0FB0D00E2D9A1 /* MapboxMobileEvents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		971FAC5124F0FB4A00E2D9A1 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971FAC4624F0FB0C00E2D9A1 /* Mapbox.framework */; };
+		971FAC5224F0FB4A00E2D9A1 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 971FAC4624F0FB0C00E2D9A1 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		971FAC5424F0FB4C00E2D9A1 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971FAC4724F0FB0D00E2D9A1 /* MapboxMobileEvents.framework */; };
+		971FAC5524F0FB4C00E2D9A1 /* MapboxMobileEvents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 971FAC4724F0FB0D00E2D9A1 /* MapboxMobileEvents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		971FAC5724F1002700E2D9A1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FAC5624F1002700E2D9A1 /* MapView.swift */; };
+		971FAC5824F1002700E2D9A1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FAC5624F1002700E2D9A1 /* MapView.swift */; };
+		971FAC5A24F100B600E2D9A1 /* MapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FAC5924F100B600E2D9A1 /* MapTest.swift */; };
+		971FAC5B24F100B600E2D9A1 /* MapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FAC5924F100B600E2D9A1 /* MapTest.swift */; };
 		9769E4F624EB032700AAA8B6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E4F524EB032700AAA8B6 /* Tests_iOS.swift */; };
 		9769E50124EB032700AAA8B6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E50024EB032700AAA8B6 /* Tests_macOS.swift */; };
 		9769E50324EB032700AAA8B6 /* AppLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E4DA24EB032400AAA8B6 /* AppLearningApp.swift */; };
 		9769E50424EB032700AAA8B6 /* AppLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E4DA24EB032400AAA8B6 /* AppLearningApp.swift */; };
-		9769E50524EB032700AAA8B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E4DB24EB032400AAA8B6 /* ContentView.swift */; };
-		9769E50624EB032700AAA8B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E4DB24EB032400AAA8B6 /* ContentView.swift */; };
 		9769E50724EB032700AAA8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9769E4DC24EB032700AAA8B6 /* Assets.xcassets */; };
 		9769E50824EB032700AAA8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9769E4DC24EB032700AAA8B6 /* Assets.xcassets */; };
+		9769E51824EB0C8700AAA8B6 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E51724EB0C8700AAA8B6 /* CourseRow.swift */; };
+		9769E51924EB0C8700AAA8B6 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E51724EB0C8700AAA8B6 /* CourseRow.swift */; };
+		9769E51B24EB109300AAA8B6 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E51A24EB109300AAA8B6 /* CoursesView.swift */; };
+		9769E51C24EB109300AAA8B6 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E51A24EB109300AAA8B6 /* CoursesView.swift */; };
+		9769E51E24EB12D500AAA8B6 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E51D24EB12D500AAA8B6 /* WeatherView.swift */; };
+		9769E51F24EB12D500AAA8B6 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769E51D24EB12D500AAA8B6 /* WeatherView.swift */; };
+		979916F024FBC5140063DC01 /* WaternameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979916EF24FBC5140063DC01 /* WaternameData.swift */; };
+		979916F124FBC5140063DC01 /* WaternameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979916EF24FBC5140063DC01 /* WaternameData.swift */; };
+		979916F324FBC9360063DC01 /* WaternameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979916F224FBC9360063DC01 /* WaternameList.swift */; };
+		979916F424FBC9360063DC01 /* WaternameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979916F224FBC9360063DC01 /* WaternameList.swift */; };
+		97B99E6A24FA33020005C85A /* FishItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B99E6924FA33020005C85A /* FishItem.swift */; };
+		97B99E6B24FA33020005C85A /* FishItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B99E6924FA33020005C85A /* FishItem.swift */; };
+		97B99E6D24FA336B0005C85A /* FishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B99E6C24FA336B0005C85A /* FishList.swift */; };
+		97B99E6E24FA336B0005C85A /* FishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B99E6C24FA336B0005C85A /* FishList.swift */; };
+		97B99F6E24F6E67000F0C5A5 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B99F6D24F6E67000F0C5A5 /* Fish.swift */; };
+		97B99F6F24F6E67000F0C5A5 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B99F6D24F6E67000F0C5A5 /* Fish.swift */; };
+		97BA40D724EDCCE100008582 /* SuisseBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97BA40D624EDCCE100008582 /* SuisseBold.otf */; };
+		97BA40D824EDCCE100008582 /* SuisseBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97BA40D624EDCCE100008582 /* SuisseBold.otf */; };
+		97DB512A24FC4F050012CE0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DB512924FC4F050012CE0B /* ContentView.swift */; };
+		97DB512B24FC4F050012CE0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DB512924FC4F050012CE0B /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +64,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		971FAC4E24F0FB3F00E2D9A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				971FAC5024F0FB4100E2D9A1 /* MapboxMobileEvents.framework in Embed Frameworks */,
+				971FAC4D24F0FB3F00E2D9A1 /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971FAC5324F0FB4A00E2D9A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				971FAC5524F0FB4C00E2D9A1 /* MapboxMobileEvents.framework in Embed Frameworks */,
+				971FAC5224F0FB4A00E2D9A1 /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		971FAC4624F0FB0C00E2D9A1 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		971FAC4724F0FB0D00E2D9A1 /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapboxMobileEvents.framework; sourceTree = "<group>"; };
+		971FAC5624F1002700E2D9A1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		971FAC5924F100B600E2D9A1 /* MapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTest.swift; sourceTree = "<group>"; };
 		9769E4DA24EB032400AAA8B6 /* AppLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLearningApp.swift; sourceTree = "<group>"; };
-		9769E4DB24EB032400AAA8B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9769E4DC24EB032700AAA8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9769E4E124EB032700AAA8B6 /* AppLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9769E4E424EB032700AAA8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +109,18 @@
 		9769E4FC24EB032700AAA8B6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9769E50024EB032700AAA8B6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9769E50224EB032700AAA8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9769E51724EB0C8700AAA8B6 /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
+		9769E51A24EB109300AAA8B6 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		9769E51D24EB12D500AAA8B6 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		979916EF24FBC5140063DC01 /* WaternameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaternameData.swift; sourceTree = "<group>"; };
+		979916F224FBC9360063DC01 /* WaternameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaternameList.swift; sourceTree = "<group>"; };
+		97B99E6924FA33020005C85A /* FishItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishItem.swift; sourceTree = "<group>"; };
+		97B99E6C24FA336B0005C85A /* FishList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishList.swift; sourceTree = "<group>"; };
+		97B99F6D24F6E67000F0C5A5 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		97B99F7324F6F26600F0C5A5 /* SuisseLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuisseLight.otf; sourceTree = "<group>"; };
+		97B99F7424F6F26600F0C5A5 /* SuisseMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuisseMedium.otf; sourceTree = "<group>"; };
+		97BA40D624EDCCE100008582 /* SuisseBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuisseBold.otf; sourceTree = "<group>"; };
+		97DB512924FC4F050012CE0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971FAC4F24F0FB4100E2D9A1 /* MapboxMobileEvents.framework in Frameworks */,
+				971FAC4C24F0FB3F00E2D9A1 /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +137,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971FAC5424F0FB4C00E2D9A1 /* MapboxMobileEvents.framework in Frameworks */,
+				971FAC5124F0FB4A00E2D9A1 /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				9769E4D924EB032400AAA8B6 /* Shared */,
+				9769E52024EDC7E300AAA8B6 /* Fonts */,
 				9769E4E324EB032700AAA8B6 /* iOS */,
 				9769E4EA24EB032700AAA8B6 /* macOS */,
 				9769E4F424EB032700AAA8B6 /* Tests iOS */,
@@ -99,8 +176,19 @@
 			isa = PBXGroup;
 			children = (
 				9769E4DA24EB032400AAA8B6 /* AppLearningApp.swift */,
-				9769E4DB24EB032400AAA8B6 /* ContentView.swift */,
+				97B99F6924F6E1CF00F0C5A5 /* Tutorials */,
+				9769E51D24EB12D500AAA8B6 /* WeatherView.swift */,
+				97DB512924FC4F050012CE0B /* ContentView.swift */,
+				971FAC5624F1002700E2D9A1 /* MapView.swift */,
+				971FAC5924F100B600E2D9A1 /* MapTest.swift */,
+				97B99F6D24F6E67000F0C5A5 /* Fish.swift */,
+				97B99E6924FA33020005C85A /* FishItem.swift */,
+				97B99E6C24FA336B0005C85A /* FishList.swift */,
+				979916EF24FBC5140063DC01 /* WaternameData.swift */,
+				979916F224FBC9360063DC01 /* WaternameList.swift */,
 				9769E4DC24EB032700AAA8B6 /* Assets.xcassets */,
+				971FAC4624F0FB0C00E2D9A1 /* Mapbox.framework */,
+				971FAC4724F0FB0D00E2D9A1 /* MapboxMobileEvents.framework */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -151,6 +239,25 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		9769E52024EDC7E300AAA8B6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				97B99F7324F6F26600F0C5A5 /* SuisseLight.otf */,
+				97B99F7424F6F26600F0C5A5 /* SuisseMedium.otf */,
+				97BA40D624EDCCE100008582 /* SuisseBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		97B99F6924F6E1CF00F0C5A5 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				9769E51724EB0C8700AAA8B6 /* CourseRow.swift */,
+				9769E51A24EB109300AAA8B6 /* CoursesView.swift */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,6 +268,7 @@
 				9769E4DD24EB032700AAA8B6 /* Sources */,
 				9769E4DE24EB032700AAA8B6 /* Frameworks */,
 				9769E4DF24EB032700AAA8B6 /* Resources */,
+				971FAC4E24F0FB3F00E2D9A1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +286,7 @@
 				9769E4E524EB032700AAA8B6 /* Sources */,
 				9769E4E624EB032700AAA8B6 /* Frameworks */,
 				9769E4E724EB032700AAA8B6 /* Resources */,
+				971FAC5324F0FB4A00E2D9A1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97BA40D724EDCCE100008582 /* SuisseBold.otf in Resources */,
 				9769E50724EB032700AAA8B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97BA40D824EDCCE100008582 /* SuisseBold.otf in Resources */,
 				9769E50824EB032700AAA8B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,8 +419,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9769E50524EB032700AAA8B6 /* ContentView.swift in Sources */,
+				9769E51E24EB12D500AAA8B6 /* WeatherView.swift in Sources */,
+				971FAC5724F1002700E2D9A1 /* MapView.swift in Sources */,
+				97DB512A24FC4F050012CE0B /* ContentView.swift in Sources */,
+				9769E51824EB0C8700AAA8B6 /* CourseRow.swift in Sources */,
+				971FAC5A24F100B600E2D9A1 /* MapTest.swift in Sources */,
+				97B99E6A24FA33020005C85A /* FishItem.swift in Sources */,
+				979916F324FBC9360063DC01 /* WaternameList.swift in Sources */,
 				9769E50324EB032700AAA8B6 /* AppLearningApp.swift in Sources */,
+				97B99F6E24F6E67000F0C5A5 /* Fish.swift in Sources */,
+				9769E51B24EB109300AAA8B6 /* CoursesView.swift in Sources */,
+				97B99E6D24FA336B0005C85A /* FishList.swift in Sources */,
+				979916F024FBC5140063DC01 /* WaternameData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +438,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9769E50624EB032700AAA8B6 /* ContentView.swift in Sources */,
+				9769E51F24EB12D500AAA8B6 /* WeatherView.swift in Sources */,
+				971FAC5824F1002700E2D9A1 /* MapView.swift in Sources */,
+				97DB512B24FC4F050012CE0B /* ContentView.swift in Sources */,
+				9769E51924EB0C8700AAA8B6 /* CourseRow.swift in Sources */,
+				971FAC5B24F100B600E2D9A1 /* MapTest.swift in Sources */,
+				97B99E6B24FA33020005C85A /* FishItem.swift in Sources */,
+				979916F424FBC9360063DC01 /* WaternameList.swift in Sources */,
 				9769E50424EB032700AAA8B6 /* AppLearningApp.swift in Sources */,
+				97B99F6F24F6E67000F0C5A5 /* Fish.swift in Sources */,
+				9769E51C24EB109300AAA8B6 /* CoursesView.swift in Sources */,
+				97B99E6E24FA336B0005C85A /* FishList.swift in Sources */,
+				979916F124FBC5140063DC01 /* WaternameData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +604,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 348GTU8TWT;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shared",
+				);
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -495,6 +630,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 348GTU8TWT;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shared",
+				);
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -521,6 +660,10 @@
 				DEVELOPMENT_TEAM = 348GTU8TWT;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shared",
+				);
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -545,6 +688,10 @@
 				DEVELOPMENT_TEAM = 348GTU8TWT;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shared",
+				);
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
